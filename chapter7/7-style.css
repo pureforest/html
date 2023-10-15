@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+   background-size: cover;
+   background-position: bottom;
+}
+
+.main-visual-text{
+  padding: 20px 0 0 20px;
+}
+
+.servise-box{
+ width: 840px;
+ margin: 50px auto;
+}
+
+.servise-item{
+  padding-bottom: 60px;
+  margin: 0 auto;
+}

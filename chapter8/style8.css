@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list:nth-child(odd){
+  background-color: gray;
+  width: 960px;
+}
+
+.list:nth-child(even){
+  background-color: #fff;
+  width: 960px;
+}
+
+.list:first-child{
+  margin-top: 50px;
+}
+
+.list:last-child{
+  margin-top: 50px;
+}
+
+.list{
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #ffd700;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
